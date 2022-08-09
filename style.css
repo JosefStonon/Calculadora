@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fundo {
+    height: 100%;
+    background-image: linear-gradient(45deg, #ab4040, #4086a9 50%);
+    text-align: center;
+}
+
+.calc {
+    background-color: black;
+    width: 15rem;
+    height: 23.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 1rem;
+    
+}
+
+.calc h1 {
+    position: relative;
+    color: aliceblue;
+    margin-bottom: 0.5rem;
+}
+
+.calc p {
+    background-color: aliceblue;
+    height: 2rem;
+    margin-bottom: 1rem;
+    text-align: end;
+    padding: 0.2rem;
+    font-size: 1.3rem;
+    border-radius: 5px;
+}
+
+.btn {
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem;
+    border-radius: 5px;
+}
+
+#btn {
+    height: 6.4rem;
+}
